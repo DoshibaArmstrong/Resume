@@ -1,0 +1,107 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    width:1000px;
+    min-width: 700px;
+    min-height: 1000px;
+    background-color: beige;
+    position:relative;
+    margin:50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;   
+}
+.address-pg{
+    position:absolute;
+    top:0%;
+    width: 100%;
+    height:200px;
+    background-color: #8D4B55;
+    margin-right: 0px;
+}
+.address-pg .content{
+    position:absolute;
+    margin-left:700px;
+    color: aliceblue;
+    font-weight: bold; 
+    font-size: 22px;
+}
+.address-pg .content h1{
+    font-size: 45px;
+}
+.address-pg .avatar{
+    margin-left:50px;
+    margin-top: 70px;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+.page{
+    margin:20px;
+    display: flex;
+}
+.container .left-contents{
+    position: absolute;
+    color: #000000;
+    margin-left: 10px;
+    margin-top:260px;
+    font-weight:bolder;
+}
+.container .left-contents ul{
+    margin-inline: 10px;
+    font-size: 20px;
+}
+.container .left-contents h2{
+    color: #8D4B55;
+    text-decoration: underline;
+}
+.container .left-contents a{
+    color:#000000;
+    text-decoration: none;
+    text-shadow: 5px;  
+    padding-top: 50px;
+}
+.container .left-contents .list{
+    list-style: none;
+}
+.container .left-contents p{
+    font-weight:normal;
+    font-size: 20px;}
+.container .right-contents{
+    position: absolute;
+    color: #000000;
+    margin-left: 650px;
+    margin-top:260px;
+    font-weight:bolder;
+} 
+.container .right-contents h2{
+    color: #8D4B55;
+    text-decoration: underline;
+}
+.container .right-contents p{
+    font-weight:normal;
+    font-size: 20px;
+}
+.container .right-contents ul{
+    margin-inline: 10px;
+    font-size: 20px;}
+table,th,td{
+    border: 3px solid #8D4B55;
+    border-collapse: collapse;
+}
+.footer{
+    background-color: #8D4B55;
+    width:1000px;
+    min-width: 700px;
+    height:13px;
+}
+
